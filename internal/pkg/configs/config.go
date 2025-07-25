@@ -20,7 +20,6 @@ type Config struct {
 	Environment string `env:"ENV"`
 	ServiceName string `env:"SERVICE_NAME"`
 	Server      Server
-	UseMemory   bool `env:"USE_MEMORY"`
 }
 
 func IsDevelopment() bool {
